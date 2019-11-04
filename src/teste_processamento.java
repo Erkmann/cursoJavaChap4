@@ -2,13 +2,15 @@ public class teste_processamento {
 
     public static void main(String[] args){
 
-        int x, y;
+        double b, B, h, area;
 
-        x = 5;
+        b = 6.0;
+        h = 5.0;
+        B = 8.0;
 
-        y = x * 2;
+        area = ((b + B) / 2) * h;
 
-        System.out.println(y);
+        System.out.println(area);
 
     }
 
