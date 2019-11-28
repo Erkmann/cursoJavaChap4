@@ -1,14 +1,24 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class teste_entrada_dados {
 
     public static void main(String[] args){
-
-        String x;
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        x = sc.nextLine();
-        System.out.println("Voce digitou: " + x);
+        String x;
+        int y;
+        double z;
+
+        x = sc.next();
+        y = sc.nextInt();
+        z = sc.nextDouble();
+
+        System.out.println("Dados digitados: ");
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
 
         sc.close();
 
